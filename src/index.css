@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Josefin Sans";
+}
+
+.App {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100vw;
+  height: 170vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+
+#light {
+  background-color: #ffffff;
+}
+
+#dark {
+  background-color: #000000
+}
+
+
+
+.profile {
+  height: 50vh;
+  padding: 5px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+#light .profile {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark .profile{
+  color: rgb(255, 255, 255);
+}
+
+#profile #avatar {
+  height: 100%;
+  width: 70%;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+#avatar img {
+  border: 1px solid black;
+  height: 100%;
+  width: 90%;
+  border-radius: inherit;
+  text-align: center;
+}
+
+#profile-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
+}
+#light .profile-section {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark .profile-section{
+  color: rgb(255, 255, 255);
+}
+
+#data-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#light #data-card {
+  color: rgba(255, 255, 255, 0.907);
+}
+#dark #data-card{
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  font-style: italic;
+  box-shadow: rgb(100, 98, 98);
+}
+#light h1 {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark h1 {
+  color: rgb(255, 255, 255);
+}
+
+h2{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  font-style: normal;
+  position: relative;
+
+}
+#light h2 {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark h2 {
+  color: rgb(255, 255, 255);
+}
+h2 .repository-list{
+  color: aqua;
+}
+article {
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+  font-size: small;
+  margin-top: 25px;
+}
+
+#light .article {
+  color: rgba(255, 255, 255, 0.907);
+}
+#dark .article {
+  color: rgb(0, 0, 0);
+}
+
+
+
+.buttons {
+  justify-content: space-around;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(61, 59, 59);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-style: bolder;
+  font-size: 15px;
+  box-shadow: rgb(61, 59, 59);
+  text-align: center;
+}
+
+a .buttons {
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgb(61, 59, 59);
+  color:rgb(0, 119, 163);
+  text-align: center;
+}
+
+.bio {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+  
+}
+#light .bio {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark .bio {
+  color: rgb(255, 255, 255);
+}
+
+.location{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#light .location {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark .location {
+  color: rgb(255, 255, 255);
+}
+
+#user-data {
+  height: 90%;
+  width: 285px;
+  margin: 20px;
+  font-size: 9px;
+  position: inherit;
+  text-align: center;
+}
+
+#light #user-data {
+  background-color: rgba(0, 0, 0, 0.907);
+}
+#dark #user-data{
+  background-color: rgb(255, 255, 255);
+}
+
+#paginate {
+  position: relative;
+  margin-top: 50px;
+}
+
+#outlet {
+  margin-top: 80px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.switch {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.alert {
+  position: relative;
+  font-size: 20px;
+  color: rgb(40, 19, 19);
+  text-align: center;
+}
+
+
+body{
+  margin: o;
+}
+
+.navbar{
+  display: flex;
+  align-items: left;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+#light .navbar {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark .navbar {
+  color: rgb(255, 255, 255);
+}
+
+.site-tittle{
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  font: italic;
+  
+
+}
+.navbar ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: 1rem;
+}
+
+.navbar a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+
+}
+
+#light .navbar a {
+  color: rgba(0, 0, 0, 0.907);
+}
+#dark .navbar a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar li.active{
+  background-color: #555;
+}
+
+.navbar li:hover{
+  background-color: rgb(0, 57, 148);
+}
+.navbar li.active{
+  background-color: #555;
+}
