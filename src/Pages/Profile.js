@@ -67,7 +67,7 @@ function Profile({
         
         </div>
 
-        <a href="https://github.com/Dave-Sleek?tab=following">
+        <a href="https://github.com/Sammyjnr375?tab=following">
             <button className="buttons">Following: {following}</button>
           </a>
       </div>
